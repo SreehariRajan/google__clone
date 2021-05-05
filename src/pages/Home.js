@@ -14,10 +14,10 @@ function Home(){
                         <Link to="/store">Store</Link>
                     </div>
                     <div className="home__header__right">
-                    <Link to="/gmail">Gmail</Link>
-                    <Link to="/imgaes">Images</Link>
-                    <AppsIcon />
-                    <Avatar />
+                    <Link to="/gmail" className="gmail">Gmail</Link>
+                    <Link to="/imgaes" className="images">Images</Link>
+                    <AppsIcon className="appss"/>
+                    <Avatar className="avatar"/>
                     </div>
                 </div>
 

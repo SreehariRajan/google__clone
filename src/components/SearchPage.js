@@ -17,8 +17,6 @@ function SearchPage(){
     //const [ { term='tesla'} , dispatch] = useStateValue();
     //live api call
     const { data } = useGoogleSearch(term);
-
-    console.log("this is ",data)
         //mock api call
     // const data = Response;
     return (
@@ -28,7 +26,7 @@ function SearchPage(){
                 <img className="searchPage__logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google png" />
                 </Link>
                 <div className="searchPage__headerBody">
-                <Search hideButtons={false} />
+                <Search hideButtons={false}/>
 
                 <div className="searchPage__options">
                     <div className="options__left">

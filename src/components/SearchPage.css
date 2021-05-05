@@ -80,12 +80,14 @@
     margin-right: 10px;
 }
 @media screen and (max-width:576px) {
+    .searchPage{
+        width: 100vw;
+        max-width: 100vw;
+    }
     .searchpage__header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100vw;
-        max-width: 100vw;
     }
     .searchPage__logo{
         object-fit: contain;

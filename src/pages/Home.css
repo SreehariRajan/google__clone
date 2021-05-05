@@ -38,3 +38,19 @@
     object-fit: contain;
     height: 100px;
 }
+@media screen and (max-width:576px) {
+    .home__body >img {
+        margin-top: 30px;
+        object-fit: contain;
+        height: 50px;
+    }   
+    .home__header__left{
+        display: none;
+    } 
+    .home .home__header__right{
+        margin-left: 68vw;
+    }
+    .home .home__header__right .gmail,.images{
+        display:none;
+    }
+}
