@@ -79,6 +79,33 @@
     width: 20px;
     margin-right: 10px;
 }
+@media screen and (max-width:576px) {
+    .searchpage__header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        max-width: 100vw;
+    }
+    .searchPage__logo{
+        object-fit: contain;
+        height: 50px;
+        margin-right: auto ;
+        margin-left: auto;
+    }
+    .options__right{
+        display: none;
+    }
+    .searchpage__header .searchPage__options .searchPage__option .icons{
+        display: none;
+    }
+    .search__results{
+        width: 80vw;
+        max-width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 
 
