@@ -59,11 +59,12 @@
 
     }
     .search__input{
+        /* padding-right: 30px; */
         height: 20px;
         width: 70vw;
     }
-    /* .search__input > input {
-        width:90%;
-        max-width: 90%;
-    }  */
+    .search__input > input {
+        margin-right: 8px;
+        font-size:small;
+    }
 }

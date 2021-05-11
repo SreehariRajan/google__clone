@@ -27,7 +27,7 @@ function Search(props){
              <div className="search__input">
                 <SearchIcon className="search__inputIcon" />
                 <input  value={input} onChange={e => setInput(e.target.value)}/>
-                <MicIcon/>
+                <span className="mic"><MicIcon/></span>
              </div>  
             {props.hideButtons == true ? (
                 <div className="search__buttons">
