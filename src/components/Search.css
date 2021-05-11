@@ -64,7 +64,7 @@
         width: 70vw;
     }
     .search__input > input {
-        margin-right: 17px;
+        min-width: 50vw;
         font-size:small;
     }
 }
