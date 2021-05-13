@@ -1,3 +1,2 @@
-export const API_KEY ="AIzaSyAScinkPvzX2ZtKtbqunJ2xFY_lKOj1Ze4";
-
-export default API_KEY;
+export const API_KEY="YOUR API KEY";
+export const CONTEXT_KEY="YOUR CONTEXT KEY";

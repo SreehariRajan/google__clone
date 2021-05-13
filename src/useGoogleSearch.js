@@ -1,9 +1,8 @@
 import {useState,useEffect} from 'react';
-import API_KEY from "./components/keys";
+import {API_KEY} from "./components/keys";
+import {CONTEXT_KEY} from './components/keys';
 import axios from 'axios';
 // import { useStateValue } from './StateProvider';
-
-const CONTEXT_KEY ="604674a087df8b1df";
 const useGoogleSearch = (term) => {
     const [data,setData]=useState(null);
    //when ever there is a change in term this code gets fired
